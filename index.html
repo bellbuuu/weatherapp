@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>a weather app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="searchbox">
+                <input type="text" placeholder="enter your city or country" class="inputbox">
+                <button class="fa-solid fa-magnifying-glass" id="searchbutton"></button>
+            </div>
+        </div>
+
+        <div class="notfound">
+            <img src="https://www.badcreditcardealers.com/images/no-results-found.png">
+        </div>
+
+        <div class="weatherbody">
+            <img src="https://cdn2.iconfinder.com/data/icons/weather-flat-14/64/weather02-1024.png" class="weatherimg">
+            <div class="weatherbox">
+                 <p class="temperature">13 °C </p>
+                 <p class="description">Light rain</p>
+            </div>
+            <br>
+           <div class="extra">
+            <div class="humidity">
+                <i class="fa-solid fa-droplet" style="font-size: 25px;"></i>
+                <div class="text" style="padding-left: 10px;">
+                    <span id="humidity">45 % </span>
+                       <br>Humidity 
+                    
+                </div>
+            </div>
+            <div class="windspeed">
+                <i class="fa-solid fa-wind" style="font-size: 25px;"> </i>
+                <div class="windtext" style="padding-left: 10px;">
+                    <span id="windspeed">20 km/hr </span>
+                       <br>Wind speed
+                    
+                </div>
+            </div>
+           </div>
+
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/70179f0c58.js" crossorigin="anonymous"></script>
+</body>
+</html>
